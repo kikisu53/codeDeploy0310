@@ -5,9 +5,9 @@ branches:
   only: master
 env:
   global:
-  - S3_BUCKET_NAME=
-  - CODEDEPLOY_APPLICATION=
-  - CODEDEPLOY_GROUP=
+  - S3_BUCKET_NAME=s3-0310
+  - CODEDEPLOY_APPLICATION=0310-codeDeploy
+  - CODEDEPLOY_GROUP=0310-deployGroup
   - REGION=ap-northeast-1
   - LOCAL_DIR=deploy
 script:
